@@ -13,7 +13,7 @@ import android.widget.TextView;
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
-
+// tentando comitar ela 551468741232571697 vez
     //atributos - tela
     private EditText txtNome;
     private ImageView imgVolta;

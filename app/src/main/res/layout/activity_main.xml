@@ -12,6 +12,9 @@
         android:layout_height="39dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="16dp"
+        android:checked="false"
+        android:clickable="false"
+        android:editable="false"
         android:text="Ímpar"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -49,6 +52,8 @@
         android:layout_height="39dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="5dp"
+        android:clickable="false"
+        android:editable="false"
         android:text="Par"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -60,6 +65,7 @@
         android:layout_height="39dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="16dp"
+        android:checked="true"
         android:text="Ímpar"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -241,9 +247,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="25dp"
-        android:tint="#D400B8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:drawable/ic_menu_revert" />
+        app:srcCompat="@android:drawable/ic_menu_revert"
+        app:tint="#D400B8" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
